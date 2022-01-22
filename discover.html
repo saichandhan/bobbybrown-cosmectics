@@ -1,0 +1,949 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover | Bobbi Brown</title>
+    <script src="https://kit.fontawesome.com/ea5e711088.js" crossorigin="anonymous"></script>
+    <style>
+         #box1{
+           width: 100%;
+           height: 150px;
+           background-color: black;
+           position: sticky;
+           top:-100px;
+       }
+       .smallbox1{
+           width: 100%;
+           height: 61%;
+           display: grid;
+           grid-template-columns: 30% 40% 30%;
+       }
+       .smallbox2{
+           width: 100%;
+           height: 37%;
+           display: flex;
+           background-color: black;
+           
+       }
+       #signupfont{
+           margin-left: 35px;
+           font-family: Helvetica,Arial,sans-serif;
+           letter-spacing: 1px;
+           font-weight: 1000;
+           color: white;
+           margin-top: 32px;
+       }
+       #websitename{
+           margin: auto;
+           font-family: Helvetica,Arial,sans-serif;
+           letter-spacing:13px;
+           font-size:350% ;
+           font-weight: 100;
+           font-stretch:ultra-condensed;    
+           font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+           margin-top: 17px;
+           color: white;
+       }
+       #websitename:hover{
+           cursor: pointer;
+       }
+       #icons{
+           margin-left: 160px;
+           font-family: Helvetica,Arial,sans-serif;
+           letter-spacing: 1px;
+           font-weight: 1000;
+           text-decoration: underline;
+           color: white;
+           margin-top: 32px;
+       }
+       #icon1{
+           margin-top: 32px;
+           margin-left: 20px;
+           color: white;
+        }
+        #icon2,#icon3{
+           margin-top: 32px;
+           margin-left: 15px;
+           color: white;
+        }
+        #icon2:hover{
+            color: grey;
+            cursor: pointer;
+        }
+        #icon3:hover{
+            color: grey;
+            cursor: pointer;
+        }
+        #icon4{
+            margin-left: 35px;
+            margin-top: 20px;
+            color: white;
+        }
+        input{
+            margin-left: 7px;
+            background-color: black;
+            text-decoration: underline 2px white;
+            font-family: Helvetica,Arial,sans-serif;
+            letter-spacing: 2px;
+            font-weight: bolder;
+            color: grey;
+            border: 0;
+        }
+        #newtag1{
+            margin-left: 100px;
+            font-family: Helvetica,Arial,sans-serif;
+            letter-spacing: 1px;
+            font-weight: 500;
+            color: white;
+            margin-top: 26px;
+        }
+        #newtag2,#newtag3,#newtag4,#newtag5,#newtag6,#newtag7{
+            margin-left: 35px;
+            font-family: Helvetica,Arial,sans-serif;
+            font-weight: 500;
+            color: whitesmoke;
+            margin-top: 26px;
+        }
+         .smallbox2>h4:hover{
+            color: grey;
+            text-decoration: underline white;
+            cursor: pointer;
+         }
+        #signupfont:hover{
+            color: grey;
+            cursor: pointer;
+        }
+        #icons:hover{
+            color: grey;
+            cursor: pointer;
+        }
+        #newfirstbox{
+            display: flex;
+        }
+        #fifteenbox{
+            border: 0px;
+            width: 77%;
+            height: 630px;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(3,30%);
+            justify-content: space-between;
+            margin-top: 90px;
+        }
+        .insidefifteenbox{
+            border: 0px;
+            
+        }
+        #fifteenimagebox1{
+            border: 0px;
+            width: 100%;
+            height: 350px ;
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        }
+        #fifteenimagebox2{
+            border: 0px;
+            width: 100%;
+            height: 350px ;
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        }
+        #fifteenimagebox3{
+            border: 0px;
+            width: 100%;
+            height: 350px ;
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        }
+        .fifteentextbox{
+            border: 0px;
+            width: 100%;
+            height: 275px;
+            margin-top: 55px;
+        }
+         #fifteenboximage1{
+             width: 100%;
+             height: 100%;
+         }
+         #fifteenboximage2{
+             width: 100%;
+             height: 100%;
+         }
+         #fifteenboximage3{
+             width: 100%;
+             height: 100%;
+         }
+         .fifteentext1{
+             text-align: center;
+             font-family: Helvetica,Arial,sans-serif;
+             font-size: 13px;
+             letter-spacing: 1px;
+             font-weight: bold;
+         }
+         .fifteentext2{
+            text-align: center;
+             font-family: Helvetica,Arial,sans-serif;
+             font-size: 15.5px;
+             letter-spacing: 1px;
+             font-weight: bolder;
+             margin-top: 20px;
+         }
+         .fifteentext3{
+            text-align: center;
+             font-family: Helvetica,Arial,sans-serif;
+             font-size: 16px;
+             letter-spacing: 1px;
+             font-weight: 400;
+             margin-top: -12px;
+         }
+         .fifteentext4{
+             font-family: Helvetica,Arial,sans-serif;
+             font-size: 14px;
+             letter-spacing: 1px;
+             margin-top: 1px;
+             margin-left: 3px;
+             
+         }
+         .fifteenicon{
+             display: flex;
+             margin-left: 78px;
+             margin-top: 0px;
+         }
+         .fifteentext5{
+            font-family: Helvetica,Arial,sans-serif;
+             font-size: 14px;
+             letter-spacing: 1px; 
+             text-align: center;
+             margin-top: 1px;
+         }
+         #fifteenbutton1{
+            font-family: Helvetica,Arial,sans-serif;
+             font-size: 14px;
+             letter-spacing: 1px;
+             font-weight: bold;
+             background-color: black;
+             color: white;
+             height: 37px;
+             width: 160px;
+             margin-left: 88px;
+         }
+         #fifteenimagebox1:hover{
+             cursor: pointer;
+         }
+         #fifteenbutton1:hover{
+            cursor: pointer;
+            background-color: grey; 
+            border: 0px;
+        }
+        #fifteenbutton2{
+            font-family: Helvetica,Arial,sans-serif;
+             font-size: 14px;
+             letter-spacing: 1px;
+             font-weight: bold;
+             background-color: black;
+             color: white;
+             height: 37px;
+             width: 160px;
+             margin-left: 88px;
+         }
+         #fifteenimagebox2:hover{
+             cursor: pointer;
+         }
+         #fifteenbutton2:hover{
+            cursor: pointer;
+            background-color: grey; 
+            border: 0px;
+        }
+        #fifteenbutton3{
+            font-family: Helvetica,Arial,sans-serif;
+             font-size: 14px;
+             letter-spacing: 1px;
+             font-weight: bold;
+             background-color: black;
+             color: white;
+             height: 37px;
+             width: 160px;
+             margin-left: 88px;
+         }
+         #fifteenimagebox3:hover{
+             cursor: pointer;
+         }
+         #fifteenbutton3:hover{
+            cursor: pointer;
+            background-color: grey; 
+            border: 0px;
+        }
+        #newitemsbox{
+            border: 1px solid #922235;
+            width: 100%;
+            height: 300px;
+            background-color: #922235;
+            margin-top: 0px;
+        }
+        #newitemstext{
+            font-family: Helvetica,Arial,sans-serif;
+            text-align: center;
+            font-size: 52px;
+            color: white;
+            letter-spacing: 5px;
+            margin-top: 110px;
+        }
+        #selectbox1{
+        font-family: Helvetica,Arial,sans-serif;
+        letter-spacing: 1px;
+        font-size: 16px;
+        font-weight: 600;
+        width: 200px;
+        height: 45px;
+        color: black;
+        background-color: white;
+        border: 1px solid black;
+        margin-top: 50px;
+        margin-left: 80%;
+        }
+        #mainblackbox{
+        border: opx;
+        width: 100%;
+        height: 401px;
+        background-color: black;
+        border-bottom: 1px solid grey;
+    }
+    #blackbox1{
+        border: 0px;
+        width: 91%;
+        height: 400px;
+        margin: auto;
+        display: grid;
+        grid-template-columns:30% 30%  40% ;
+        background-color: black;
+        margin-top: 70px;
+    }
+    #insideblack1{
+        border: 0px;
+    }
+    #insideblack2{
+        border: 0px;
+    }
+    #insideblack3{
+        border: 0px;
+    }
+    #blacktext1{
+        font-family: Helvetica,Arial,sans-serif;
+        letter-spacing: 1px;
+        font-size: 15px;
+        font-weight: bold;
+        color: whitesmoke;
+    }
+    #blacktext2{
+        font-family: Helvetica,Arial,sans-serif;
+        letter-spacing: 1px;
+        font-size: 14px;
+        font-weight: bold;
+        margin-top: 30px;
+        color: whitesmoke;
+    }
+    #blacktext3{
+        font-family: Helvetica,Arial,sans-serif;
+        letter-spacing: 1px;
+        font-size: 15px;
+         font-weight: 500;
+         color: whitesmoke;
+    }
+    #blacktext4{
+        font-family: Helvetica,Arial,sans-serif;
+        letter-spacing: 1px;
+        font-size: 15px;
+        font-weight: 500;
+        color: whitesmoke;
+    }
+    #blacktext5{
+        font-family: Helvetica,Arial,sans-serif;
+        letter-spacing: 1px;
+        font-size: 15px;
+        font-weight: 500;
+        color: whitesmoke;
+    }
+    #blacktext6{
+        font-family: Helvetica,Arial,sans-serif;
+        letter-spacing: 1px;
+        font-size: 15px;
+        font-weight: 500;
+        color: whitesmoke;
+    }
+    #blacktext7{
+        font-family: Helvetica,Arial,sans-serif;
+        letter-spacing: 1px;
+        font-size: 15px;
+        font-weight: 500;
+        color: whitesmoke;
+    }
+    #selectbox1{
+        font-family: Helvetica,Arial,sans-serif;
+        letter-spacing: 1px;
+        font-size: 14px;
+        font-weight: 500;
+        width: 250px;
+        height: 45px;
+        color: whitesmoke;
+        background-color: black;
+        border: 1px solid whitesmoke;
+    }
+    #insideblack1>p{
+        cursor: pointer;
+    }
+    #selectbox1{
+        cursor: pointer;
+    }
+    #black2text1{
+        font-family: Helvetica,Arial,sans-serif;
+        letter-spacing: 1px;
+        font-size: 15px;
+        font-weight: bold;
+        color: whitesmoke;
+    }
+    #black2text2{
+        font-family: Helvetica,Arial,sans-serif;
+        letter-spacing: 1px;
+        font-size: 15px;
+        font-weight: 500;
+        color: whitesmoke;
+        margin-top: 30px;
+    }
+    #black2text3{
+        font-family: Helvetica,Arial,sans-serif;
+        letter-spacing: 1px;
+        font-size: 15px;
+         font-weight: 500;
+         color: whitesmoke;
+    }
+    #black2text4{
+        font-family: Helvetica,Arial,sans-serif;
+        letter-spacing: 1px;
+        font-size: 15px;
+         font-weight: 500;
+         color: whitesmoke;
+    }
+    #black2text5{
+        font-family: Helvetica,Arial,sans-serif;
+        letter-spacing: 1px;
+        font-size: 15px;
+         font-weight: 500;
+         color: whitesmoke;
+    }
+    #insideblack2>p:hover{
+        cursor: pointer;
+    }
+    #black3text1{
+        font-family: Helvetica,Arial,sans-serif;
+        letter-spacing: 1px;
+        font-size: 15px;
+        font-weight: bold;
+        color: whitesmoke; 
+        margin-left: 100px;
+    }
+    #blackiconbox{
+        display: flex;
+    }
+    #blackicon1{
+        color: whitesmoke;
+        margin-left: 100px;
+        margin-top: 30px;
+    }
+    #blackicon2{
+        color: whitesmoke;
+        margin-top: 30px;
+        margin-left: 25px;
+    }
+    #blackicon3{
+        color: whitesmoke;
+        margin-top: 30px;
+        margin-left: 25px;
+    }
+    #blackicon4{
+        color: whitesmoke;
+        margin-top: 30px;
+        margin-left: 25px;
+    }
+    #blackicon5{
+        color: whitesmoke;
+        margin-top: 30px;
+        margin-left: 25px;
+    }
+    #blackiconbox>i:hover{
+        cursor: pointer;
+    }
+    #mainlastbox{
+        border: 0px;
+        width: 100%;
+        height: 186px;
+        background-color:black;
+        }
+        #lastbox{
+        border: 0px;
+        width: 91%;
+        height: 185px;
+        margin: auto;
+        display: grid;
+        grid-template-columns:54% 20% 26% ;
+        background-color:black ;
+        }
+        #insidelastbox1{
+            border: 0px;
+        }
+        #insidelastbox2{
+            border: 0px;
+        }
+        #insidelastbox3{
+            border: 0px;
+        }
+        #lastboxtext1{
+            font-family: Helvetica,Arial,sans-serif;
+            color: grey;
+            font-size: 14px;
+            margin-top: 40px;
+            letter-spacing: 1px;
+        }
+        #lastbox2text1{
+            font-family: Helvetica,Arial,sans-serif;
+            color: grey;
+            font-size: 14px;
+            margin-top: 40px;
+            letter-spacing: 1px; 
+        }
+        #lastbox2text2,#lastbox2text3{
+            font-family: Helvetica,Arial,sans-serif;
+            color: grey;
+            font-size: 14px;
+            letter-spacing: 1px; 
+        }
+        #lastbox3text1{
+            font-family: Helvetica,Arial,sans-serif;
+            color: grey;
+            font-size: 14px;
+            margin-top: 40px;
+            letter-spacing: 1px; 
+        }
+        #lastbox3text2{
+            font-family: Helvetica,Arial,sans-serif;
+            color: grey;
+            font-size: 14px;
+            letter-spacing: 1px; 
+        }
+        #insidelastbox1>p:hover{
+            cursor: pointer;
+        }
+        #insidelastbox2>p:hover{
+            cursor: pointer;
+        }
+        #insidelastbox3>p:hover{
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div id="box1">
+        <div class="smallbox1">
+            <h6 id="signupfont">EMAIL SIGN UP</h6>
+                <h1 id="websitename">BOBBI BROWN</h1>
+                <div id="newfirstbox">
+                <h6 id="icons">JOIN BBACCESS</h6>
+                <i id="icon1" class="fas fa-map-marker"></i>
+                <i id="icon2" class="far fa-user"></i>  
+                <i id="icon3" class="fas fa-shopping-bag"></i>              
+            </div>
+            </div>
+        <div class="smallbox2">
+            <i id="icon4" class="fas fa-search"></i>
+            <input type="text" placeholder="SEARCH">
+            <h4 id="newtag1">NEW</h4>
+            <h4 id="newtag2">BESTSELLERS</h4>
+            <h4 id="newtag3">FACE</h4>
+            <h4 id="newtag4">MAKEUP</h4>
+            <h4 id="newtag5">SKINCARE</h4>
+            <h4 id="newtag6">VIRTUAL SERVICES</h4>
+            <h4 id="newtag7">DISCOVER</h4>
+        </div>
+    </div>
+    <div>
+    <div id="newitemsbox">
+        <p id="newitemstext">WHAT'S NEW</p>
+     </div>
+     <select name="" id="selectbox1">
+        <option value="CHOOSE LOCATION">SORT BY</option>
+        <option value="CHOOSE LOCATION">BESTSELLERS</option>
+        <option value="CHOOSE LOCATION">PRICE (LOW TO HIGH)</option>
+        <option value="CHOOSE LOCATION">PRICE(HIGH TO LOW)</option>
+        <option value="CHOOSE LOCATION">HIGHEST RATED</option>
+    </select>
+    <div id="fifteenbox">
+        <div class="insidefifteenbox">
+            <div id="fifteenimagebox1">
+                <img id="fifteenboximage1" src="https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_E96E44_1080x1080_0.jpg" alt="image21">
+            </div>
+            <div class="fifteentextbox">
+                <p class="fifteentext1">CASHEW</p>
+                <P class="fifteentext2">LONG-WEAR CREAM SHADOW STICK</P>
+                <P class="fifteentext3">Long-Lasting Cream Eye Shadow</P>
+                <div class="fifteenicon">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <p class="fifteentext4"> 4.5 (672)</p>
+                </div>
+                <p class="fifteentext5">30.00</p>
+                <button id="fifteenbutton1">ADD TO BAG</button>
+            </div>
+        </div>
+        <div class="insidefifteenbox">
+            <div id="fifteenimagebox2">
+                <img id="fifteenboximage2" src="https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_EP7P01_1080x1080_0.jpg" alt="image22">
+            </div>
+            <div class="fifteentextbox">
+                <p class="fifteentext1">CREAM</p>
+                <P class="fifteentext2">EXTRA REPAIR EYE CREAM INTENSE</P>
+                <P class="fifteentext3">Revitalizing Undereye Treatment</P>
+                <div class="fifteenicon">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <p class="fifteentext4"> 2.1 (22)</p>
+                </div>
+                <p class="fifteentext5">82.00</p>
+                <button id="fifteenbutton2">ADD TO BAG</button>
+            </div>
+        </div>
+        <div class="insidefifteenbox">
+            <div id="fifteenimagebox3">
+                <img id="fifteenboximage3" src="https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_EPHC01_1080x1080_2.jpg" alt="image23">
+            </div>
+            <div class="fifteentextbox">
+                <p class="fifteentext1">CREAM</p>
+                <P class="fifteentext2">EXTRA REPAIR EYE CREAM INTENSE </P>
+                <P class="fifteentext3">Skin Loving. Planet Conscious.</P>
+                <div class="fifteenicon">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <p class="fifteentext4"> 3 (3)</p>
+                </div>
+                <p class="fifteentext5">68.00</p>
+                <button id="fifteenbutton3">ADD TO BAG</button>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div id="fifteenbox">
+        <div class="insidefifteenbox">
+            <div id="fifteenimagebox1">
+                <img id="fifteenboximage1" src="https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_EREP01_1080x1080_0.jpg" alt="image24">
+            </div>
+            <div class="fifteentextbox">
+                <p class="fifteentext1">cream</p>
+                <P class="fifteentext2">EXTRA REPAIR MOISTURE CREAM </P>
+                <P class="fifteentext3">Repleneshing, peptide-infused cream</P>
+                <div class="fifteenicon">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <p class="fifteentext4"> 2.8 (16)</p>
+                </div>
+                <p class="fifteentext5">105.00</p>
+                <button id="fifteenbutton1">ADD TO BAG</button>
+            </div>
+        </div>
+        <div class="insidefifteenbox">
+            <div id="fifteenimagebox2">
+                <img id="fifteenboximage2" src="https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_ERER01_1080x1080_2.jpg" alt="image25">
+            </div>
+            <div class="fifteentextbox">
+                <p class="fifteentext1">CREAM</p>
+                <P class="fifteentext2">EXTRA REPAIR MOISTURE CREAM</P>
+                <P class="fifteentext3">Refill. Reuse. Repeat.</P>
+                <div class="fifteenicon">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <p class="fifteentext4"> 3 (2)</p>
+                </div>
+                <p class="fifteentext5">85.00</p>
+                <button id="fifteenbutton2">ADD TO BAG</button>
+            </div>
+        </div>
+        <div class="insidefifteenbox">
+            <div id="fifteenimagebox3">
+                <img id="fifteenboximage3" src="https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_ERAN01_1080x1080_0.jpg" alt="image26">
+            </div>
+            <div class="fifteentextbox">
+                <p class="fifteentext1">LEMON</p>
+                <P class="fifteentext2">EXTRA CLEANSING BALM</P>
+                <P class="fifteentext3">Purifying, conditiong cleanser</P>
+                <div class="fifteenicon">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <p class="fifteentext4"> 3.7 (9)</p>
+                </div>
+                <p class="fifteentext5">56</p>
+                <button id="fifteenbutton3">ADD TO BAG</button>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div id="fifteenbox">
+        <div class="insidefifteenbox">
+            <div id="fifteenimagebox1">
+                <img id="fifteenboximage1" src="https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_ERGC01_1080x1080_0.jpg" alt="image27">
+            </div>
+            <div class="fifteentextbox">
+                <p class="fifteentext1">GILDED ROSE</p>
+                <P class="fifteentext2">LUXE EYE SHADOW</P>
+                <P class="fifteentext3">Metallic shimmer Eye Shadow</P>
+                <div class="fifteenicon">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <p class="fifteentext4"> 4.8 (96)</p>
+                </div>
+                <p class="fifteentext5">38.00</p>
+                <button id="fifteenbutton1">ADD TO BAG</button>
+            </div>
+        </div>
+        <div class="insidefifteenbox">
+            <div id="fifteenimagebox2">
+                <img id="fifteenboximage2" src="https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_ETCT01_1080x1080_0.jpg" alt="image28">
+            </div>
+            <div class="fifteentextbox">
+                <p class="fifteentext1">PALE YELLOW</p>
+                <P class="fifteentext2">SHEER FINISH PRESSED POWDER</P>
+                <P class="fifteentext3">Oil-Absorbing Setting Powder</P>
+                <div class="fifteenicon">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <p class="fifteentext4"> 4.9 (101)</p>
+                </div>
+                <p class="fifteentext5">45.00</p>
+                <button id="fifteenbutton2">ADD TO BAG</button>
+            </div>
+        </div>
+        <div class="insidefifteenbox">
+            <div id="fifteenimagebox3">
+                <img id="fifteenboximage3" src="https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_ET5P01_1080x1080_0.jpg" alt="image29">
+            </div>
+            <div class="fifteentextbox">
+                <p class="fifteentext1">CASHEW</p>
+                <P class="fifteentext2">LONG-WEAR CREAM SHADOW STICK</P>
+                <P class="fifteentext3">Long-Lasting Cream Eye Shadow</P>
+                <div class="fifteenicon">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <p class="fifteentext4"> 4.5 (671)</p>
+                </div>
+                <p class="fifteentext5">30.00</p>
+                <button id="fifteenbutton3">ADD TO BAG</button>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div id="fifteenbox">
+        <div class="insidefifteenbox">
+            <div id="fifteenimagebox1">
+                <img id="fifteenboximage1" src="https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_ETCY12_1080x1080_0.jpg" alt="image30">
+            </div>
+            <div class="fifteentextbox">
+                <p class="fifteentext1">BLACK INK</p>
+                <P class="fifteentext2">LONG-WEAR GEL EYELINER</P>
+                <P class="fifteentext3">Smudgeproof, Waterproof Eyeliner</P>
+                <div class="fifteenicon">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <p class="fifteentext4"> 4.8 (2093)</p>
+                </div>
+                <p class="fifteentext5">28.00</p>
+                <button id="fifteenbutton1">ADD TO BAG</button>
+            </div>
+        </div>
+        <div class="insidefifteenbox">
+            <div id="fifteenimagebox2">
+                <img id="fifteenboximage2" src="https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_ET7C01_1080x1080_0.jpg" alt="image31">
+            </div>
+            <div class="fifteentextbox">
+                <p class="fifteentext1">PALE YELLOW</p>
+                <P class="fifteentext2">SHEER FINISH PRESSED POWDER</P>
+                <P class="fifteentext3">Oil-Absorbing Setting Powder</P>
+                <div class="fifteenicon">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <p class="fifteentext4"> 4.9 (101)</p>
+                </div>
+                <p class="fifteentext5">45.00</p>
+                <button id="fifteenbutton2">ADD TO BAG</button>
+            </div>
+        </div>
+        <div class="insidefifteenbox">
+            <div id="fifteenimagebox3">
+                <img id="fifteenboximage3" src="https://www.bobbibrowncosmetics.com/media/export/cms/products/v2_1080x1080/bb_sku_ET7C01_1080x1080_2.jpg" alt="image32">
+            </div>
+            <div class="fifteentextbox">
+                <p class="fifteentext1">CASHEW</p>
+                <P class="fifteentext2">LONG-WEAR CREAM SHADOW STICK</P>
+                <P class="fifteentext3">Long-Lasting Cream Eye Shadow</P>
+                <div class="fifteenicon">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <p class="fifteentext4"> 4.5 (671)</p>
+                </div>
+                <p class="fifteentext5">30.00</p>
+                <button id="fifteenbutton3">ADD TO BAG</button>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div id="mainblackbox">
+        <div id="blackbox1">
+            <div id="insideblack1">
+                <p id="blacktext1">NEED HELP?</p>
+                <P id="blacktext2">Chat with an Artist</P>
+                <p id="blacktext3">Text An Artist</p>
+                <p id="blacktext4">Call Us (877)-310-9222</p>
+                <p id="blacktext5">Shipping & Returns</p>
+                <p id="blacktext6">FAQS</p>
+                <P id="blacktext7">Careers</P>
+            <select name="" id="selectbox1">
+                <option value="CHOOSE LOCATION">CHOOSE LOCATION</option>
+                <option value="CHOOSE LOCATION">ARGENTINA</option>
+                <option value="CHOOSE LOCATION">AUSTRALIA</option>
+                <option value="CHOOSE LOCATION">CANADA</option>
+                <option value="CHOOSE LOCATION">GERMANY</option>
+                <option value="CHOOSE LOCATION">FRANCE</option>
+                <option value="CHOOSE LOCATION">INDIA</option>
+                <option value="CHOOSE LOCATION">PAKISTAN</option>
+                <option value="CHOOSE LOCATION">NEWYORK</option>
+            </select>
+            </div>
+            <div id="insideblack2">
+                <p id="black2text1">MY BOBBI BROWN</p>
+                <P id="black2text2">BB Access</P>
+                <p id="black2text3">My Account</p>
+                <p id="black2text4">My Orders</p>
+                <p id="black2text5">Store Locators</p>
+            </div>
+            <div id="insideblack3">
+                <p id="black3text1">FOLLOW US</p>
+                <div id="blackiconbox">
+                    <i id="blackicon1" class="fab fa-facebook-f"></i>
+                    <i id="blackicon2" class="fab fa-twitter"></i>
+                    <i id="blackicon3" class="fab fa-youtube"></i>
+                    <i id="blackicon4" class="fab fa-instagram"></i>
+                    <i id="blackicon5" class="fab fa-pinterest"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="mainlastbox">
+        <div id="lastbox">
+            <div id="insidelastbox1">
+                <p id="lastboxtext1">@ Bobbi Brown Professional Cosmetics, Inc. All worldwide rights reserved.</p>
+            </div>
+            <div id="insidelastbox2">
+                <p id="lastbox2text1">Terms & Conditions</p>
+                <p id="lastbox2text2">California Do Not Sell My Personal Information</p>
+                <p id="lastbox2text3">Accessibiltiy</p>
+            </div>
+            <div id="insidelastbox3">
+                <p id="lastbox3text1">Internet Based Ads</p>
+                <p id="lastbox3text2">Privacy Policy</p>
+            </div>
+        </div>
+        </div>   
+</body>
+</html>
+<script>
+    document.getElementById("signupfont").addEventListener("click",function(){
+        window.location.href = "signup.html"
+    })
+    document.getElementById("icons").addEventListener("click",function(){
+        window.location.href = "signup.html"
+    })
+    document.getElementById("icon2").addEventListener("click",function(){
+        window.location.href = "login.html"
+    })
+    document.getElementById("icon3").addEventListener("click",function(){
+        window.location.href = "viewcart.html"
+    })
+        document.getElementById("newtag1").addEventListener("click",function(){
+        window.location.href="newitems.html"
+    });
+    document.getElementById("websitename").addEventListener("click",function(){
+        window.location.href="homepage.html"
+    });
+    document.getElementById("newtag2").addEventListener("click",function(){
+        window.location.href="bestsellers.html"
+    });
+    document.getElementById("newtag3").addEventListener("click",function(){
+        window.location.href="faceitems.html"
+    });
+    document.getElementById("newtag4").addEventListener("click",function(){
+        window.location.href= "makeup.html"
+    })
+    document.getElementById("newtag5").addEventListener("click",function(){
+        window.location.href= "skincare.html"
+    })
+    document.getElementById("newtag6").addEventListener("click",function(){
+        window.location.href = "virtualservices.html"
+    })
+    document.getElementById("newtag7").addEventListener("click",function(){
+        window.location.href = "discover.html"
+    })
+    document.getElement("button").addEventListener("click",function(){
+        window.location.href = "viewcart.html"
+    })
+    document.getElementById("blackicon1").addEventListener("click",function(){
+        window.location.href="https://www.facebook.com/BobbiBrown"
+    })
+    document.getElementById("blackicon2").addEventListener("click",function(){
+        window.location.href="https://twitter.com/BobbiBrown"
+    })
+    document.getElementById("blackicon3").addEventListener("click",function(){
+        window.location.href="https://www.youtube.com/BobbiBrown"
+    })
+    document.getElementById("blackicon4").addEventListener("click",function(){
+        window.location.href="https://www.instagram.com/BobbiBrown/"
+    })
+    document.getElementById("blackicon5").addEventListener("click",function(){
+        window.location.href="https://www.pinterest.com/bobbibrown/"
+    })
+    document.getElementById("black2text3").addEventListener("click",function(){
+        window.location.href = "login.html"
+    })
+    document.getElementById("black2text4").addEventListener("click",function(){
+        window.location.href = "login.html"
+    })
+</script>
